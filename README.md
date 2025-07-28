@@ -32,7 +32,7 @@ Create the .cpp file that contains the pass Operations:
 
 ![alt text](image-4.png)
 
-The .cpp file in this case simply prints the names of all the functions in the input IR to stderr.
+The .cpp file in this case simply prints the names of all the functions in the input IR to stderr. The .ll file in this case is naling.ll
 
 Run the Pass on an input .ll file using :opt -disable-output yourinputfile.ll -passes=helloworld
 to generate the required pass output.
